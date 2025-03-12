@@ -11,7 +11,9 @@ python main.py
 1. Open `http://localhost:5000` in your browser.  
 2. Browse and download files.  
 #### License
-
-This project is open-source and available under the MIT License.
+This project is open-source and available under the **MIT** License.
 Feel free to contribute and improve it! 🚀
-join my Discord [![Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/n89WUuuCsS)](https://discord.gg/n89WUuuCsS)  
+
+**Join my Discord** 
+
+[![Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/n89WUuuCsS)](https://discord.gg/n89WUuuCsS)  
