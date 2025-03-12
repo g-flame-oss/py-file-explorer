@@ -16,7 +16,7 @@ from datetime import datetime
 # Configuration
 PORT = 8080 # Port for the Server
 HOST = "0.0.0.0" # IP address for the server
-DOWNLOAD_DIR = os.path.abspath("/app/data") # The path to show to the user
+DOWNLOAD_DIR = os.path.abspath("/app/backups") # The path to show to the user
  
 ## Don't edit anything below Here if you don't know what you are doing !! 
 # ------------------------------------------------------------------------
