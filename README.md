@@ -8,7 +8,7 @@ pip install -r requirements.txt
 python main.py
 ```
 #### Usage  
-1. Open `http://localhost:5000` in your browser.  
+1. Open `http://localhost:8080` in your browser.  
 2. Browse and download files.  
 #### License
 This project is open-source and available under the **MIT** License.
