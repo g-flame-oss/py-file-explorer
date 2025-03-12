@@ -1,12 +1,4 @@
 # File Downloader Server by G-flame (https://github.com/g-lame
-
-# Configuration
-PORT = 8080 # Port for the Server
-HOST = "0.0.0.0" # IP address for the server
-DOWNLOAD_DIR = os.path.abspath("/app/data") # The path to show to the user
- 
-## Don't edit anything below Here if you don't know what you are doing !! 
-# ------------------------------------------------------------------------
 # Importing shit 
 import os
 import sys
@@ -21,6 +13,14 @@ import mimetypes
 from http import HTTPStatus
 from pathlib import Path
 from datetime import datetime
+# Configuration
+PORT = 8080 # Port for the Server
+HOST = "0.0.0.0" # IP address for the server
+DOWNLOAD_DIR = os.path.abspath("/app/data") # The path to show to the user
+ 
+## Don't edit anything below Here if you don't know what you are doing !! 
+# ------------------------------------------------------------------------
+
 
 SERVER_INSTANCE = None # for the 'done' and 'CTRL + C' stopping sequence.. 
 class FileServer(http.server.SimpleHTTPRequestHandler):
